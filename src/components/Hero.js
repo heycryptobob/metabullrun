@@ -14,7 +14,6 @@ export function Hero() {
               heading="METABULLRUN"
               description="A community driven token that is built to create a bull run to the moon."
               socials={true}
-              development={true}
             />
           </Col>
         </Row>
