@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Circular';
+  src: local('Circular'), 
+       url('./fonts//lineto-circular-book.woff') format('woff'),
+       url('./fonts//lineto-circular-book.woff2') format('woff2')
+       url('./fonts//lineto-circular-black.woff') format('woff'),
+       url('./fonts//lineto-circular-black.woff2') format('woff2');
+}
+
+$headings-font-family: 'Circular';
+$headings-font-weight: 900;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+);
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  color: #fff;
+  font-family: 'Circular';
+  background: url("./assets/background.png") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.custom-card {
+  min-height: 384px;
+}
+
+// .header {
+//   background: url("./assets/header.png") no-repeat top center local;
+// }
+
+
+// .hero {
+//   background: url("./assets/hero.png") no-repeat top center local;
+// }

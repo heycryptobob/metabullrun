@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+// import { Audit } from './components/Audit';
+// import { Footer } from './components/Footer';
+// import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+// import { Roadmap } from './components/Roadmap';
+// import { Tokenomics } from './components/Tokenomics';
+// import { Media } from './components/Media';
+// import { Twitter } from './components/Twitter';
+// import { Team } from './components/Team';
+// import ReactGA from "react-ga4";
+
+// ReactGA.initialize("G-8M507FWXLW");
+// ReactGA.send("pageview");
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Header /> */}
+      <Hero />
+      {/* <Media />
+      <Lottery />
+      <Twitter />
+      <NFTCollection />
+      <Game />
+      <Bridge />
+      <Tokenomics />
+      <Audit />
+      <Roadmap />
+      <Team />
+      <Contact />
+      <Legal />
+      <Footer /> */}
+    </>
   );
 }
 
