@@ -1,6 +1,6 @@
 import { Socials } from "../Socials";
 
-export function Card1({ subheading, heading, description, socials }) {
+export function CardDefault({ subheading, heading, description, socials, development }) {
   return (
     <div className="custom-card d-flex align-items-center">
       <div>
@@ -8,7 +8,7 @@ export function Card1({ subheading, heading, description, socials }) {
         <h1>{heading}</h1>
         <p className="description">{description}</p>
         { socials ? <Socials /> : <></> }
-        <p>Website under development.</p>
+        { development ? <p>Website under development.</p> : <></> }
       </div>
     </div>
   )

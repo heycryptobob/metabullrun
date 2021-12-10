@@ -17,7 +17,7 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3,
+  5: $spacer * 2,
   6: $spacer * 4,
 );
 @import "~bootstrap/scss/bootstrap";
@@ -25,15 +25,33 @@ $spacers: (
 body {
   color: #fff;
   font-family: 'Circular';
-  background: url("./assets/background.png") no-repeat top center fixed;
+  background: url("./assets/background.png") no-repeat top center local;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+p {
+  margin: 0px;
+}
+
 .custom-card {
-  min-height: 384px;
+  min-height: 192px;
+}
+@include media-breakpoint-up(lg) {
+  .custom-card {
+    min-height: 384px;
+  }
+}
+
+section.bg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+@include media-breakpoint-up(md) {
+  section.bg {
+    background-color: transparent;
+  }
 }
 
 // .header {
@@ -44,3 +62,16 @@ body {
 // .hero {
 //   background: url("./assets/hero.png") no-repeat top center local;
 // }
+
+.footer {
+  background-color: #090B24;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+}

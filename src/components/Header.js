@@ -1,5 +1,6 @@
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import Logo from '../assets/logo.png';
+import { list } from '../menu';
 
 export function Header() {
   return (
@@ -8,16 +9,12 @@ export function Header() {
         <Navbar.Brand href="/">
         <img src={Logo} alt="Logo" width="40" height="40" />
         </Navbar.Brand>
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#audit">Audit</Nav.Link>
-            <Nav.Link href="#tokenomics">Tokenomics</Nav.Link>
-            <Nav.Link href="#team">Team</Nav.Link>
-            <Nav.Link href="#roadmap">Roadmap</Nav.Link>
+            { list.map((item, key) => <Nav.Link key={key} href={item.href}>{item.name}</Nav.Link>)}
           </Nav>
-        </Navbar.Collapse> */}
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

@@ -2,7 +2,7 @@ import { SocialIcon } from "react-social-icons";
 
 export function Socials() {
   return (
-    <div className="mb-2">
+    <div className="my-3">
       <SocialIcon
         url="https://t.me/metabullrun"
         network="telegram"
