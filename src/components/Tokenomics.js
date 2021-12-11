@@ -6,7 +6,7 @@ export function Tokenomics() {
 
   const list = [
     "Name: METABULLRUN",
-    "Symbol: $MHT",
+    "Symbol: $MBR",
     "Decimals: 18",
     "Address: 0x0000000000000000000000000",
   ]
