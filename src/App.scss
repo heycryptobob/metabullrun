@@ -75,3 +75,24 @@ a {
     text-decoration: underline;
   }
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+code {
+  @extend .text-white;
+}
+
+.contract {
+  font-size: 11px;
+
+  &:hover * {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+@include media-breakpoint-up(lg) {
+  .contract {
+    font-size: inherit;
+  }
+}

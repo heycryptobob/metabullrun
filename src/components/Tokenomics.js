@@ -5,10 +5,9 @@ import Supply from '../assets/supply.png';
 export function Tokenomics() {
 
   const list = [
-    "Name: METABULLRUN",
-    "Symbol: $MBR",
-    "Decimals: 18",
-    "Address: 0x0000000000000000000000000",
+    "Name: <code>METABULLRUN</code>",
+    "Symbol: <code>MBR</code>",
+    "Decimals: <code>9</code>",
   ]
 
   return (
@@ -23,6 +22,7 @@ export function Tokenomics() {
               subheading="Token Data"
               heading="Tokenomics"
               list={list}
+              contract={true}
             />
           </Col>
         </Row>
