@@ -1,6 +1,7 @@
 import { Row, Container, Col } from "react-bootstrap";
 import { Header } from "./Header";
 import { CardDefault } from "./cards/CardDefault";
+import { CountdownTimer } from "./CountdownTimer";
 
 export function Hero() {
   return (
@@ -8,7 +9,10 @@ export function Hero() {
       <Header />
       <Container className="py-6">
         <Row>
-          <Col md={{ span: 6, offset: 6 }}>
+          <Col className="d-flex align-items-center justify-content-center">
+            <CountdownTimer />
+          </Col>
+          <Col>
             <CardDefault
               subheading="Join The Movement"
               heading="METABULLRUN"
