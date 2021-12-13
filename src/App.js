@@ -11,6 +11,7 @@ import { BuyTax } from './components/BuyTax';
 import { SellTax } from './components/SellTax';
 import { Roadmap } from './components/Roadmap';
 import { Team } from './components/Team';
+import { Swap } from './components/Swap';
 import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-6JK33DD6SP");
@@ -31,6 +32,7 @@ function App() {
       <SellTax />
       <Team />
       <Roadmap />
+      <Swap />
       <Footer />
       {/* <Media />
       <Lottery />

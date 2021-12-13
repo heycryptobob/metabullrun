@@ -4,4 +4,5 @@ export const list = [
   { href: "#tokenomics", name: "Tokenomics" },
   { href: "#team", name: "KYC Team" },
   { href: "#roadmap", name: "Roadmap" },
+  { href: "#swap", name: "Swap" },
 ];
