@@ -5,4 +5,5 @@ export const list = [
   { href: "#team", name: "KYC Team" },
   { href: "#roadmap", name: "Roadmap" },
   { href: "#swap", name: "Swap" },
+  { href: "/metabullrun-whitepaper.pdf", name: "Whitepaper" },
 ];
