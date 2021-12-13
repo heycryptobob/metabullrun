@@ -7,7 +7,6 @@ export function BuyTax() {
     "1% Liquidity",
     "3% BNB Rewards",
     "2% Operations",
-    "-",
   ];
 
   return (

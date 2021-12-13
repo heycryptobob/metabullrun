@@ -15,6 +15,7 @@ export function Hero() {
               description="A community driven token that is built to create a bull run to the moon."
               socials={true}
               contract={true}
+              buyLinks={true}
             />
           </Col>
         </Row>
