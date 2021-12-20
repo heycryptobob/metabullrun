@@ -1,4 +1,4 @@
-import { Row, Container, Col, Image } from "react-bootstrap";
+import { Row, Container, Col } from "react-bootstrap";
 import { CardList } from "./cards/CardList";
 // import Supply from '../assets/supply.png';
 
