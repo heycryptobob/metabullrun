@@ -1,6 +1,6 @@
 import { Row, Container, Col, Image } from "react-bootstrap";
 import { CardList } from "./cards/CardList";
-import Supply from '../assets/supply.png';
+// import Supply from '../assets/supply.png';
 
 export function Tokenomics() {
 
@@ -10,20 +10,38 @@ export function Tokenomics() {
     "Decimals: <code>9</code>",
   ]
 
+  const buyTax = [
+    "3% Marketing",
+    "1% Liquidity",
+    "3% BNB Rewards",
+    "2% Operations",
+  ];
+
+  const sellTax = [
+    "7% Marketing",
+    "2% Liquidity",
+    "3% BNB Rewards",
+    "2% Operations",
+    "2% Buyback",
+  ];
+
   return (
     <section id="tokenomics">
       <Container className="py-6">
         <Row>
-          <Col md={6} className="mt-5 mt-md-0 pe-md-6 order-2 order-md-1">
-            <Image src={Supply} alt="Supply Allocation" fluid />
-          </Col>
-          <Col md={6} className="d-flex align-items-center order-1 order-md-2">
+          <Col md={6}>
             <CardList
               subheading="Token Data"
               heading="Tokenomics"
               list={list}
               contract={true}
             />
+          </Col>
+          <Col>
+            <CardList subheading="9%" heading="Buy Tax" list={buyTax} />
+          </Col>
+          <Col>
+            <CardList subheading="16%" heading="Sell Tax" list={sellTax} />
           </Col>
         </Row>
       </Container>

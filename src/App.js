@@ -7,8 +7,8 @@ import { Buyback } from './components/Buyback';
 import { Liquidity } from './components/Liquidity';
 import { Audit } from './components/Audit';
 import { Tokenomics } from './components/Tokenomics';
-import { BuyTax } from './components/BuyTax';
-import { SellTax } from './components/SellTax';
+// import { BuyTax } from './components/BuyTax';
+// import { SellTax } from './components/SellTax';
 import { Roadmap } from './components/Roadmap';
 import { Team } from './components/Team';
 import { Swap } from './components/Swap';
@@ -30,8 +30,8 @@ function App() {
       <Liquidity />
       <Audit />
       <Tokenomics />
-      <BuyTax />
-      <SellTax />
+      {/* <BuyTax /> */}
+      {/* <SellTax /> */}
       <Team />
       <Roadmap />
       <Swap />

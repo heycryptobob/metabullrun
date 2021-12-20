@@ -3,7 +3,7 @@ import { Contract } from '../Contract'
 
 export function CardList({ subheading, heading, list, contract }) {
   return (
-    <div className="custom-card d-flex align-items-center">
+    <div className="custom-card d-flex align-items-start">
       <div>
         <div className="subheading">{subheading}</div>
         <h1>{heading}</h1>
