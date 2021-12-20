@@ -26,10 +26,10 @@ export function Tokenomics() {
   ];
 
   return (
-    <section id="tokenomics">
-      <Container className="py-6">
+    <section id="tokenomics" className="pt-6">
+      <Container className="pt-6">
         <Row>
-          <Col md={6}>
+          <Col md={6} className="pb-6 px-6">
             <CardList
               subheading="Token Data"
               heading="Tokenomics"
@@ -37,10 +37,10 @@ export function Tokenomics() {
               contract={true}
             />
           </Col>
-          <Col>
+          <Col md={3} className="pb-6 px-6">
             <CardList subheading="9%" heading="Buy Tax" list={buyTax} />
           </Col>
-          <Col>
+          <Col md={3} className="pb-6 px-6">
             <CardList subheading="16%" heading="Sell Tax" list={sellTax} />
           </Col>
         </Row>

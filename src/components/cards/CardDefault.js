@@ -12,7 +12,7 @@ function BuyLinks() {
           href="https://poocoin.app/tokens/0xe0118b83775000a9a4dd2579746ee4c8c7d3d73c"
           target="_blank"
           rel="noreferrer"
-          className="me-2"
+          className="me-2 mb-2"
         >
           Poocoin
         </Button>
@@ -21,7 +21,7 @@ function BuyLinks() {
           href="https://pancakeswap.finance/swap?outputCurrency=0xe0118b83775000a9a4dd2579746ee4c8c7d3d73c"
           target="_blank"
           rel="noreferrer"
-          className="me-2"
+          className="me-2 mb-2"
         >
           PancakeSwap
         </Button>
@@ -30,7 +30,7 @@ function BuyLinks() {
           href="https://bscscan.com/token/0xe0118b83775000a9a4dd2579746ee4c8c7d3d73c"
           target="_blank"
           rel="noreferrer"
-          className="me-2"
+          className="me-2 mb-2"
         >
           BSCScan
         </Button>
@@ -72,7 +72,7 @@ export function CardDefault({
   buyLinks,
 }) {
   return (
-    <div className="custom-card d-flex align-items-center">
+    <div className="d-flex align-items-start">
       <div>
         <div className="subheading">{subheading}</div>
         <h1>{heading}</h1>

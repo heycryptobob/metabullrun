@@ -1,8 +1,7 @@
 export const list = [
-  { href: "#features", name: "Features" },
-  { href: "#audit", name: "Audit" },
+  { href: "#section1", name: "Features" },
+  { href: "#audit", name: "Audit & KYC" },
   { href: "#tokenomics", name: "Tokenomics" },
-  { href: "#team", name: "KYC Team" },
   { href: "#roadmap", name: "Roadmap" },
   { href: "#swap", name: "Swap" },
   { href: "/metabullrun-whitepaper.pdf", name: "Whitepaper" },

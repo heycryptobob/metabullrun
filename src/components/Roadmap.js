@@ -64,15 +64,15 @@ export function Roadmap() {
 
   return (
     <section id="roadmap">
-      <Container className="py-6">
+      <Container className="pt-6">
         <Row>
-          <Col>
-            <h1 className="pb-4">Roadmap</h1>
+          <Col className="pb-6 px-6">
+            <h1>Roadmap</h1>
           </Col>
         </Row>
         <Row>
           {roadmap.map((item, key) => (
-            <Col key={key} md={4} className="d-flex align-items-start">
+            <Col key={key} md={4} className="pb-6 px-6">
               <CardRoadmap
                 key={key}
                 subheading={item.subheading}
