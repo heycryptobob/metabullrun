@@ -13,14 +13,14 @@ import { Roadmap } from './components/Roadmap';
 import { Team } from './components/Team';
 import { Swap } from './components/Swap';
 import ReactGA from "react-ga4";
+import { BrowserRouter } from 'react-router-dom';
 
 ReactGA.initialize("G-6JK33DD6SP");
 ReactGA.send("pageview");
 
 function App() {
   return (
-    <>
-      {/* <Header /> */}
+    <BrowserRouter>
       <Hero />
       <Rewards />
       <Marketing />
@@ -47,7 +47,7 @@ function App() {
       <Contact />
       <Legal />
       <Footer /> */}
-    </>
+    </BrowserRouter>
   );
 }
 
