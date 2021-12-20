@@ -12,6 +12,7 @@ import { SellTax } from './components/SellTax';
 import { Roadmap } from './components/Roadmap';
 import { Team } from './components/Team';
 import { Swap } from './components/Swap';
+import { Press } from './components/Press';
 import ReactGA from "react-ga4";
 import { BrowserRouter } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
   return (
     <BrowserRouter>
       <Hero />
+      <Press />
       <Rewards />
       <Marketing />
       <Buyback />
@@ -34,19 +36,6 @@ function App() {
       <Roadmap />
       <Swap />
       <Footer />
-      {/* <Media />
-      <Lottery />
-      <Twitter />
-      <NFTCollection />
-      <Game />
-      <Bridge />
-      <Tokenomics />
-      <Audit />
-      <Roadmap />
-      <Team />
-      <Contact />
-      <Legal />
-      <Footer /> */}
     </BrowserRouter>
   );
 }

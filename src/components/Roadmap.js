@@ -5,7 +5,7 @@ export function Roadmap() {
   const roadmap = [
     {
       subheading: "Roadmap",
-      heading: "Phase 1",
+      heading: "Phase 1 & 2",
       list: [
         { item: "Website", completed: true },
         { item: "Twitter Socials", completed: true },
@@ -13,12 +13,6 @@ export function Roadmap() {
         { item: "KYC with InterFi", completed: true },
         { item: "Telegram Callgroup Marketing", completed: true },
         { item: "150 BNB Presale", completed: true },
-      ],
-    },
-    {
-      subheading: "Roadmap",
-      heading: "Phase 2",
-      list: [
         { item: "Twitter Influencer Marketing", completed: true },
         { item: "Telegram Callgroup Marketing", completed: true },
         { item: "CoinMarketCap Application", completed: true },
@@ -36,6 +30,7 @@ export function Roadmap() {
         { item: "BMW Beamer Raffle Contest", completed: true },
         { item: "Certik Application", completed: true },
         { item: "LunarCrush Application", completed: true },
+        { item: "Feixiaohao Application", completed: true },
         { item: "Development of NFT Collection", completed: false },
         { item: "Poocoin KYC Marketing", completed: false },
         { item: "YouTube Marketing", completed: false },
@@ -48,6 +43,7 @@ export function Roadmap() {
       heading: "Phase 4",
       list: [
         { item: "LunarCrush Listing", completed: true },
+        { item: "Feixiaohao Listing", completed: true },
         { item: "Travladd AMA", completed: false },
         { item: "Certik Audit", completed: false },
         { item: "Certik AMA", completed: false },
@@ -68,13 +64,15 @@ export function Roadmap() {
 
   return (
     <section id="roadmap">
-      {roadmap.map((item, key) => (
-        <Container key={key} className="py-6">
-          <Row>
-            <Col
-              md={{ span: 6, offset: key % 2 !== 0 ? 0 : 6 }}
-              className="d-flex align-items-center"
-            >
+      <Container className="py-6">
+        <Row>
+          <Col>
+            <h1 className="pb-4">Roadmap</h1>
+          </Col>
+        </Row>
+        <Row>
+          {roadmap.map((item, key) => (
+            <Col key={key} md={4} className="d-flex align-items-start">
               <CardRoadmap
                 key={key}
                 subheading={item.subheading}
@@ -82,9 +80,9 @@ export function Roadmap() {
                 list={item.list}
               />
             </Col>
-          </Row>
-        </Container>
-      ))}
+          ))}
+        </Row>
+      </Container>
     </section>
   );
 }
