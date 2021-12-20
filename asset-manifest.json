@@ -1,27 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.87a14499.chunk.css",
-    "main.js": "/static/js/main.76db9991.chunk.js",
-    "main.js.map": "/static/js/main.76db9991.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6cd7d2d6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6cd7d2d6.js.map",
-    "static/js/2.fc389492.chunk.js": "/static/js/2.fc389492.chunk.js",
-    "static/js/2.fc389492.chunk.js.map": "/static/js/2.fc389492.chunk.js.map",
-    "static/js/3.5d22713a.chunk.js": "/static/js/3.5d22713a.chunk.js",
-    "static/js/3.5d22713a.chunk.js.map": "/static/js/3.5d22713a.chunk.js.map",
+    "main.js": "/static/js/main.afe48aa6.chunk.js",
+    "main.js.map": "/static/js/main.afe48aa6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.32ac45c1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.32ac45c1.js.map",
+    "static/js/2.21a530e9.chunk.js": "/static/js/2.21a530e9.chunk.js",
+    "static/js/2.21a530e9.chunk.js.map": "/static/js/2.21a530e9.chunk.js.map",
+    "static/js/3.a3757aac.chunk.js": "/static/js/3.a3757aac.chunk.js",
+    "static/js/3.a3757aac.chunk.js.map": "/static/js/3.a3757aac.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.87a14499.chunk.css.map": "/static/css/main.87a14499.chunk.css.map",
-    "static/js/2.fc389492.chunk.js.LICENSE.txt": "/static/js/2.fc389492.chunk.js.LICENSE.txt",
+    "static/js/2.21a530e9.chunk.js.LICENSE.txt": "/static/js/2.21a530e9.chunk.js.LICENSE.txt",
     "static/media/audit.0ef09176.png": "/static/media/audit.0ef09176.png",
     "static/media/App.scss": "/static/media/lineto-circular-book.5b0e4a98.woff2",
+    "static/media/coingecko.91693be5.png": "/static/media/coingecko.91693be5.png",
+    "static/media/coinmarketcap.4eab7945.png": "/static/media/coinmarketcap.4eab7945.png",
+    "static/media/crypto.f6b23d7a.png": "/static/media/crypto.f6b23d7a.png",
+    "static/media/feixiaohao.3292098a.png": "/static/media/feixiaohao.3292098a.png",
     "static/media/kyc.bff3d10d.png": "/static/media/kyc.bff3d10d.png",
     "static/media/logo.87039f2d.png": "/static/media/logo.87039f2d.png",
-    "static/media/supply.6e4818f9.png": "/static/media/supply.6e4818f9.png"
+    "static/media/lunarcrush.cee41c5b.png": "/static/media/lunarcrush.cee41c5b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6cd7d2d6.js",
-    "static/js/2.fc389492.chunk.js",
+    "static/js/runtime-main.32ac45c1.js",
+    "static/js/2.21a530e9.chunk.js",
     "static/css/main.87a14499.chunk.css",
-    "static/js/main.76db9991.chunk.js"
+    "static/js/main.afe48aa6.chunk.js"
   ]
 }
